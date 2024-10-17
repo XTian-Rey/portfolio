@@ -1,0 +1,98 @@
+/* General Styling */
+body {
+    background-color: #06141B;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3 {
+    color: #ffc107;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #ffc300;
+}
+
+/* Button Styling */
+.btn-warning {
+    background-color: #ffc300;
+    border: none;
+    color: #06141B;
+}
+
+.btn-warning:hover {
+    background-color: #ffc300;
+}
+
+/* Custom Image Styling */
+img {
+    border-radius: 8px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #11212D;
+}
+/* Skill Card Styles */
+.skill-card .card {
+    width: 80px; /* Optimal size for smaller screens */
+    height: 80px;
+    background-color: #1E2A38;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.skill-card .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+.skill-card img {
+    max-width: 80%; /* Adjusted for better visibility */
+    max-height: 80%;
+}
+
+/* Container to allow consistent card size on different screens */
+@media (min-width: 576px) {
+    .skill-card .card {
+        width: 120px; /* Adjusted width for small screens */
+        height: 120px;
+    }
+}
+
+@media (min-width: 768px) {
+    .skill-card .card {
+        width: 140px; /* Slightly larger for medium screens */
+        height: 140px;
+    }
+}
+
+@media (min-width: 992px) {
+    .skill-card .card {
+        width: 160px; /* Smaller size on large screens */
+        height: 160px;
+    }
+}
+
+/* Responsive gap between the cards */
+.row.g-4 {
+    gap: 1rem; /* Consistent gap across all sizes */
+}
+
+/* Mobile Specific Adjustments */
+@media (max-width: 575.98px) {
+    .skill-card .card {
+        width: 90px; /* Small size for mobile devices */
+        height: 90px;
+    }
+}

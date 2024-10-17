@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color:#11212D">
+        <div class="container-fluid">
+            <a class="navbar-brand" style="color: #ffc300;" href="#hero">Sumalinog Christian Rey</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sections -->
+    <div class="sections-container">
+       
+  <!-- Hero Section -->
+<!-- Hero Section -->
+<section id="hero" class="d-flex align-items-center" style="background-color: #06141B; height: 100vh;">
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-6 d-flex justify-content-center align-items-center">
+                <img src="your-character-image.png" alt="Character Image" class="img-fluid" style="max-width: 300px;">
+            </div>
+            <div class="col-md-6 text-white">
+                <h1>Hi! I'm <strong>CHRISTIAN REY</strong></h1>
+                <h3 class="text-white">Software Developer and UI/UX Designer</h3>
+                <a href="#contact" class="btn btn-warning btn-lg mt-5">Message Me!</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Horizontal Line  -->
+<hr style="border: 2px solid #ffc300; width: 100%; margin-bottom: 50px;">
+
+
+ <!-- About Section -->
+   <section id="about" class="d-flex align-items-center" style="background-color: #11212D; height: 100vh;">
+      <div class="container my-5">
+         <h2 style="margin-bottom: 1rem;">About Me</h2>
+         <div class="row">
+            <div class="col-lg-6">
+               <div style="margin-bottom: 2rem;"> <!-- Increased margin for YouTube video -->
+                  <iframe width="100%" height="300" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               </div>
+               </div>
+            <div class="col-lg-6 d-flex justify-content-end align-items-center">
+               <div style="height: 100%; border-left: 2px solid white; margin-right: 1rem;"></div> <!-- Vertical line -->
+                  <p id="about-text" style="font-size: 16px; text-align: left; margin-bottom: 0;">
+                  I am a motivated and adaptable professional with a strong foundation in both software development and UI/UX design.
+                   My technical proficiency in [programming languages such as Java, Python, or C++] complements my design expertise in [tools like Figma, Adobe XD, or Sketch], 
+                  allowing me to create efficient, user-friendly solutions.
+                  I am passionate about leveraging my problem-solving skills and creativity to develop applications that are not only functional but also deliver exceptional user experiences.
+                  Eager to contribute to innovative projects, I thrive in collaborative environments that challenge me to push the boundaries of technology and design.
+                  </p>
+               </div>
+            </div>
+         </div>
+</section>
+        
+<!-- Skills Section -->
+<section id="skills" class="d-flex align-items-center" style="background-color: #06141B; min-height: 110vh;">
+    <div class="container my-5">
+        <h2 class="text-white text-center">My Skills</h2>
+        <div class="row justify-content-center mt-5 g-4">
+            <!-- Top Row: 4 Skills -->
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 skill-card">
+                <div class="card">
+                    <img src="images/vscode.png" alt="VS Code">
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 skill-card">
+                <div class="card"> 
+                    
+                    <img src="images/GitHub.png" alt="GitHub">
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 skill-card">
+                <div class="card">
+                    <img src="images/docker.png" alt="Docker">
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 skill-card">
+                <div class="card">
+                    <img src="images/intellij.png" alt="IntelliJ">
+                </div>
+            </div>
+
+            <!-- Bottom Row: 3 Skills -->
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 skill-card">
+                <div class="card">
+                    <img src="images/figma.png" alt="Figma">
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 skill-card">
+                <div class="card">
+                    <img src="images/invision.png" alt="InVision">
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 skill-card">
+                <div class="card">
+                    <img src="images/adobe.png" alt="Adobe XD">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="d-flex align-items-center" style="background-color: #11212D; height: 100vh;">
+    <div class="container my-5">
+        <h2 class="text-center">Projects</h2>
+        <div class="row justify-content-center mt-5">
+            <!-- Project 1 Card -->
+            <div class="col-md-4 mb-3 d-flex justify-content-center">
+                <div class="card bg-dark text-white" style="width: 100%;">
+                    <img src="project1.png" class="card-img-top img-fluid" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 1</h5>
+                        <p class="card-text">Description of Project 1.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 2 Card -->
+            <div class="col-md-4 mb-3 d-flex justify-content-center">
+                <div class="card bg-dark text-white" style="width: 100%;">
+                    <img src="project2.png" class="card-img-top img-fluid" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text">Description of Project 2.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 3 Card -->
+            <div class="col-md-4 mb-3 d-flex justify-content-center">
+                <div class="card bg-dark text-white" style="width: 100%;">
+                    <img src="project3.png" class="card-img-top img-fluid" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 3</h5>
+                        <p class="card-text">Description of Project 3.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Experience Section -->
+<section id="experience" class="d-flex align-items-center" style="background-color: #06141B; height: 100vh;">
+    <div class="container my-5">
+        <h2 class="text-center">Experience</h2>
+        <div class="row justify-content-center mt-4">
+            <div class="col-md-12 d-flex justify-content-between">
+                <!-- Experience 1 Card -->
+                <div class="card bg-dark text-white mb-3" style="width: 48%; height: 250px; font-size: 13px;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">2023 - Software Developer | XYZ Tech Solutions</h5>
+                        <p class="card-text flex-grow-1" style="padding-left: 20px;">
+                            Developed and maintained web applications using JavaScript, React, and Node.js, ensuring high performance and scalability.<br>
+                            Collaborated with cross-functional teams to implement new features, optimize backend APIs, and fix bugs, improving the overall user experience.<br>
+                            Conducted code reviews, optimized existing codebases, and implemented responsive designs for improved mobile user interaction.<br>
+                            <strong>Achievements:</strong> Reduced page load times by 30% and increased application stability, resulting in fewer user-reported issues.
+                        </p>
+                    </div>
+                </div>
+                <!-- Experience 2 Card -->
+                <div class="card bg-dark text-white mb-3" style="width: 48%; height: 250px; font-size: 13px;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">2022 - UI/UX Designer | Bright Labs Design Agency</h5>
+                        <p class="card-text flex-grow-1" style="padding-left: 20px;">
+                            Led the design of multiple client projects, creating wireframes, user flows, and high-fidelity prototypes using Figma and Sketch.<br>
+                            Conducted user research, usability testing, and client feedback sessions to refine designs and ensure alignment with user needs.<br>
+                            Designed intuitive interfaces for mobile and web applications, focusing on accessibility and seamless user interaction.<br>
+                            <strong>Achievements:</strong> Increased user engagement by 25% across projects by enhancing the overall UI/UX, with clients reporting higher satisfaction rates.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Certificates Section -->
+<section id="certificates" class="d-flex align-items-center" style="background-color: #11212D; height: 90vh;">
+    <div class="container my-5">
+        <h2>Certificates</h2>
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-6 mb-3">
+                <div class="card" style="background-color: #1E2A38; border: none;">
+                    <div class="card-body">
+                        <img src="certificate1.png" class="img-fluid" alt="Certificate 1">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-3">
+                <div class="card" style="background-color: #1E2A38; border: none;">
+                    <div class="card-body">
+                        <img src="certificate2.png" class="img-fluid" alt="Certificate 2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+    <section id="contact" class="d-flex align-items-center" style="background-color: #06141B; height: 30vh;">
+        <div class="container my-5">
+            <h2>Contact</h2>
+            <ul class="list-unstyled">
+                <li>Email: <a href="mailto:yourname@gmail.com" class="text-warning">yourname@gmail.com</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="text-warning">linkedin.com/yourprofile</a></li>
+                <li>GitHub: <a href="https://github.com/yourprofile" target="_blank" class="text-warning">github.com/yourprofile</a></li>
+            </ul>
+        </div>
+    </section>
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    <p>Thank you for scrolling!</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
