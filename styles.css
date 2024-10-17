@@ -2,7 +2,7 @@
 body {
     background-color: #06141B;
     color: white;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', Cormorant Garamond, Oswald ,Abel;
     scroll-behavior: smooth;
 }
 
@@ -29,16 +29,32 @@ a:hover {
 .btn-warning:hover {
     background-color: #ffc300;
 }
-
-/* Custom Image Styling */
-img {
-    border-radius: 8px;
-}
-
 /* Footer Styling */
 footer {
     background-color: #11212D;
 }
+
+@media (max-width: 768px) {
+    /* Smaller font size for mobile screens */
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    h3 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+    }
+}
+
 /* Skill Card Styles */
 .skill-card .card {
     width: 80px; /* Optimal size for smaller screens */
@@ -89,10 +105,3 @@ footer {
     gap: 1rem; /* Consistent gap across all sizes */
 }
 
-/* Mobile Specific Adjustments */
-@media (max-width: 575.98px) {
-    .skill-card .card {
-        width: 90px; /* Small size for mobile devices */
-        height: 90px;
-    }
-}
